@@ -1,8 +1,8 @@
 <?php
 
-namespace M2i\Mvc\Controller;
+namespace M2i\Tpcrudbook\Controller;
 
-use M2i\Mvc\View;
+use M2i\Tpcrudbook\View;
 
 class HomeController
 {

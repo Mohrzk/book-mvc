@@ -2,7 +2,7 @@
 
 require '../vendor/autoload.php';
 
-use M2i\Mvc\App;
+use M2i\Tpcrudbook\App;
 
 $app = new App();
 // Ligne utile que si on ne fait pas "php -S ..."

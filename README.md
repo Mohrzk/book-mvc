@@ -29,10 +29,10 @@ Pour aller sur le site, on va bien sur le fichier `public/index.php`.
 Par exemple, on peut créer un controller `src/Controller/MovieController.php` :
 
 ```php
-namespace M2i\Mvc\Controller;
+namespace M2i\Tpcrudbook\Controller;
 
-use M2i\Mvc\Model\Movie;
-use M2i\Mvc\View;
+use M2i\Tpcrudbook\Model\Movie;
+use M2i\Tpcrudbook\View;
 
 class MovieController
 {
@@ -86,7 +86,7 @@ Les modèles sont rangés dans `src/Model`. Un modèle sert à structurer les do
 Voici un exemple :
 
 ```php
-namespace M2i\Mvc\Model;
+namespace M2i\Tpcrudbook\Model;
 
 class Movie extends Model
 {
