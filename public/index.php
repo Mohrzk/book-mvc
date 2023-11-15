@@ -11,6 +11,8 @@ $app = new App();
 // Toutes les routes du site
 $app->addRoutes([
     ['GET', '/', 'HomeController@index'],
+    ['GET', '/list', 'BookController@list'],
+    ['GET', '/creat', 'BookController@creat'],
 ]);
 
 // Lancer l'application

@@ -11,7 +11,7 @@ class Model
         $class = static::class; // Nom de la classe: Mvc\Model\User
         $class = strrchr($class, '\\'); // \User
 
-        return strtolower(substr($class, 1)).'s'; // users
+        return strtolower(substr($class, 1)).'s'; // users 
     }
 
     public static function all()

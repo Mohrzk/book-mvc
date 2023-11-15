@@ -19,7 +19,7 @@ class App extends AltoRouter
         // Lance le contrôleur
         if (is_array($match)) {
             [$controller, $method] = explode('@', $match['target']); // UserController@list
-            $controller = 'M2i\Mvc\Controller\\'.$controller;
+            $controller = 'M2i\Tpcrudbook\Controller\\'.$controller;
             $object = new $controller();
             $object->$method(...$match['params']);
         } else {
